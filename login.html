@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <!-- bootstrap.min.css file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- sign-in.css file -->
+    <link rel="stylesheet" href="./css/sign-in.css">
+</head>
+<body>
+    <form action="" class="register-form" id="loginForm">
+        <div class="container mx-auto my-5 text-center">
+            <div class="group shadow-lg mx-auto w-75 p-5">
+                <h1 class=" mb-4">smart login system</h1>
+
+                <input type="email" class="form-control mb-4" name="loginEmail" id="loginEmail" placeholder="Enter Your Email">
+                <input type="password" class="form-control mb-4" name="loginPassword" id="loginPassword" placeholder="Enter Your Password">
+                
+                <div class="alert alert-danger d-none" id="loginAlert">incorrect email or password</div>
+                <div class="alert alert-success d-none" id="loginSuccessAlert">Success You are logged in</div>
+
+                <button class="btn w-100">sign up</button>
+
+                <p class="text-white mt-3">Don't have an account <a href="./index.html">Sign up</a></p>
+                
+            </div>
+        </div>
+    </form>
+
+    <!-- bootstrap.bundle.js file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- sign-in.js file -->
+    <script src="./js/sign-in.js"></script>
+</body>
+</html>

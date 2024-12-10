@@ -1,0 +1,23 @@
+body {
+    background-color: #2c3333;
+}
+
+.container {
+    background-color: #395b64;
+}
+
+.btn {
+    background-color: #2c3333;
+    color: #ffffff !important;
+    margin: 20px;
+    transition: .5s ease-in-out;
+}
+
+.btn:hover {
+    border: 1px solid #2c3333;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
